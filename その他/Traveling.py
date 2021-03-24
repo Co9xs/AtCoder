@@ -13,7 +13,7 @@ for n in range(N):
   dx = abs(x - x_0)
   dy = abs(y - y_0)
 
- # 前の値を保持
+# 前の値を保持
   t_0 = t
   x_0 = x
   y_0 = y

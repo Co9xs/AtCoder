@@ -1,4 +1,4 @@
- import numpy as np
+import numpy as np
 N = int(input())
 mochi_list = sorted([int(input()) for n in range(N)])
 diff_list = np.diff(mochi_list)
