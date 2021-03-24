@@ -18,3 +18,4 @@ for v in p:
     if all(check):
       ans += 1
 print(ans)
+
