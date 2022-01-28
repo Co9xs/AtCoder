@@ -1,6 +1,3 @@
-from calendar import c
-
-
 n = int(input())
 a_list = list(map(int, input().split()))
 count = [0] * n
