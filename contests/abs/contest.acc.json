@@ -69,7 +69,11 @@
       "id": "abc088_b",
       "label": "ABC088B",
       "title": "Card Game for Two",
-      "url": "https://atcoder.jp/contests/abs/tasks/abc088_b"
+      "url": "https://atcoder.jp/contests/abs/tasks/abc088_b",
+      "directory": {
+        "path": "abc088b",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc085_b",
