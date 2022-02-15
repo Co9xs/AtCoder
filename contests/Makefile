@@ -17,4 +17,4 @@ solve-%:
 
 # 回答用ファイルに対してテストケースを実行
 test-%:
-	cd ${CONTEST_ID}/${@:test-%=%} && oj t -c "python3 ./ans.py" -d ./tests/
+	cd ${CONTEST_ID}/${@:test-%=%} && oj t -c "${LANG} ./ans.${EXT}" -d ./tests/

@@ -8,7 +8,10 @@ AtCoder練習用レポジトリ
 
 初心者のためA〜C問題を中心に解いていく
 ## Makefileのコマンド一覧
+※予め回答に使用する言語とファイルの拡張子を`contests/.env`のLANG, EXTに設定する
+
 ※新しいコンテストに参加するたびに`contests/.env`のCONTEST_IDを設定する
+
 |  コマンド  |  実行結果  |
 | ---- | ---- |
 |  `make new`  |  環境変数CONTEST_IDを読み込んで`./contests`配下に新しいコンテストを作成します  |
