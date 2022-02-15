@@ -36,3 +36,12 @@ ex. https://atcoder.jp/contests/abc239 であれば `abc239`がコンテストID
 ### 問題用ディレクトリの追加
 
 コンテスト用ディレクトリの配下で`acc add`を実行し、問題を選択してEnterで追加可能
+
+## Makefileのコマンド
+予めコンテストIDを.envに設定しておいてください
+|  コマンド  |  実行結果  |
+| ---- | ---- |
+|  `make new`  |  環境変数CONTEST_IDを読み込んで新しいコンテストを作成します  |
+|  `make add`  |  CONTEST_IDディレクトリ配下に問題を追加します  |
+|  `make solve-hoge`  |  CONTEST_ID/hogeディレクトリ配下にans.pyを作成して開きます  |
+|  `make test-hoge`  |  CONTEST_ID/hoge/ans.pyに対してCONTEST_ID/hoge/testsのテストケースを実行します |
