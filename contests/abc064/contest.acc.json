@@ -29,7 +29,11 @@
       "id": "abc064_c",
       "label": "C",
       "title": "Colorful Leaderboard",
-      "url": "https://atcoder.jp/contests/abc064/tasks/abc064_c"
+      "url": "https://atcoder.jp/contests/abc064/tasks/abc064_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc064_d",
