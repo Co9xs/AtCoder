@@ -15,6 +15,9 @@ add:
 solve-%:
 	cd ${CONTEST_ID}/${@:solve-%=%} && touch ans.${EXT} && open ans.${EXT}
 
+submit-%:
+	cd ${CONTEST_ID}/${@:submit-%=%} && acc s ans.py
+
 # 回答用ファイルに対してテストケースを実行
 test-%:
 	cd ${CONTEST_ID}/${@:test-%=%} && oj t -c "${LANG} ./ans.${EXT}" -d ./tests/
