@@ -19,7 +19,11 @@
       "id": "abc095_b",
       "label": "B",
       "title": "Bitter Alchemy",
-      "url": "https://atcoder.jp/contests/abc095/tasks/abc095_b"
+      "url": "https://atcoder.jp/contests/abc095/tasks/abc095_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests"
+      }
     },
     {
       "id": "arc096_a",
